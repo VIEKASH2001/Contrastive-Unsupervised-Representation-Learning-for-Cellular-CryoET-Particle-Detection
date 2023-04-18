@@ -1,1 +1,7 @@
 # Unsupervised-CryoET-Particle-Detection-with-Contrastive-Representation-Learning
+
+This project involves using unsupervised contrastive representation learning to detect particles in CryoET data, with the goal of deriving biological information from the tomograms. As the first to attempt particle detection in the SHREC 2021 CryoET dataset, the team achieved an impressive AUCROC of 71.6% and F1 Score of 0.672.
+
+To accomplish this, the team used 3D electron microscopy to analyze 10 tomograms, with edge detection algorithms used to identify which frames contained particles. Augmentations such as random contrast, rotation, blur, and cropping were applied before positive and negative pairs were sent for training. To solve similarity conflicts, PPG was used, and representations were learned using contrastive learning. The team used the Xnet loss on the projections and applied k-means clustering to convert the 9216-crop representation to a vector of 0s and 1s to indicate the presence of particles. The team used various metrics such as F1 score, precision, recall, and confusion matrix to measure performance and analyze the spatial organization of deep nets. 
+
+Overall, this project showcases the team's ability to leverage cutting-edge techniques in unsupervised contrastive representation learning to detect particles in CryoET data and highlights the potential of this approach to derive valuable biological information from complex imaging data.
