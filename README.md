@@ -1,5 +1,5 @@
 <a>
-    <img src="https://readme-typing-svg.demolab.com?font=Georgia&size=50&duration=2000&pause=500&multiline=true&width=1700&height=80&lines=Unsupervised CryoET Particle; Detection with Contrastive Representation Learning" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Georgia&size=50&duration=2000&pause=500&multiline=true&width=1700&height=180&lines=Unsupervised CryoET Particle Detection with; Contrastive Representation Learning" alt="Typing SVG" />
 </a>
 This project involves using unsupervised contrastive representation learning to detect particles in CryoET data, with the goal of deriving biological information from the tomograms. As the first to attempt particle detection in the SHREC 2021 CryoET dataset, the team achieved an impressive AUCROC of 71.6% and F1 Score of 0.672.
 
